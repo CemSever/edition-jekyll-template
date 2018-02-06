@@ -1,7 +1,7 @@
 ---
 title: Process&Mission
 category: Process
-order: 1
+order: 5
 ---
 
 UX MISSION

@@ -1,5 +1,6 @@
 ---
 title: Search
+sitemap: false
 ---
 
 <p><span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for "<strong id="search-query"></strong>"</span></p>
@@ -12,20 +13,21 @@ title: Search
 				{% unless item.excluded_in_search %}
 					{% if added %},{% endif %}
 					{% assign added = false %}
-
 					"{{ item.url | slugify }}": {
 						"id": "{{ item.url | slugify }}",
 						"title": "{{ item.title | xml_escape }}",
 						"category": "{{ collection.title | xml_escape }}",
 						"url": " {{ item.url | xml_escape }}",
-						"content": {{ item.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
-					}
-
+						"content": {{ item.content | strip_html | strip_newlines | jsonify  }}					}
 					{% assign added = true %}
 				{% endunless %}
 			{% endif %}
 		{% endfor %}
 	};
+
+
+
 </script>
+
 <script src="{{ site.baseurl }}/scripts/lunr.min.js"></script>
 <script src="{{ site.baseurl }}/scripts/search.js"></script>

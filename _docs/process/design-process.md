@@ -1,7 +1,7 @@
 ---
-title: Design Process
+title: Design & Process
 category: Process
-order: 1
+order: 4
 ---
 ![](/images/process/process.jpg)
 

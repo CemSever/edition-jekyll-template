@@ -1,0 +1,277 @@
+{
+	"list": {
+		"name": "Coople Style Guide",
+		"organization": "coople",
+		"colors": [
+			{
+				"name": "Background",
+				"description": "By default Coople digital products use #FFFFFF for background-color but if contrast needs to be adjusted these colors can be used.",
+				"colors": [
+					{
+						"name": "background/100",
+						"value": "#f4f1ef",
+						"description": "Background full"
+					},
+					{
+						"name": "background/90",
+						"value": "#f7f5f3"
+					},
+					{
+						"name": "background/95",
+						"value": "#f5f3f1"
+					}
+				]
+			},
+			{
+				"name": "Blue",
+				"description": "Blue/100 is called Azure on Coople CI Guidelines",
+				"colors": [
+					{
+						"name": "Blue/100",
+						"value": "#63b7ee"
+					},
+					{
+						"name": "Blue/40",
+						"value": "#c9e6f9"
+					},
+					{
+						"name": "Blue/55",
+						"value": "#a9d8f6"
+					},
+					{
+						"name": "Blue/70",
+						"value": "#91ccf3"
+					},
+					{
+						"name": "Blue/85",
+						"value": "#7ac2f0"
+					}
+				]
+			},
+			{
+				"name": "Greyscale",
+				"description": "Black is called Nero on Coople CI Guidelines",
+				"colors": [
+					{
+						"name": "Black",
+						"value": "#282727"
+					},
+					{
+						"name": "Grey/40",
+						"value": "#b4b4b4"
+					},
+					{
+						"name": "Grey/55",
+						"value": "#979797"
+					},
+					{
+						"name": "Grey/70",
+						"value": "#686767"
+					},
+					{
+						"name": "Grey/85",
+						"value": "#484747"
+					}
+				]
+			},
+			{
+				"name": "Magenta",
+				"description": "Magenta/100 is called Royal Plum on Coople CI Guidelines",
+				"colors": [
+					{
+						"name": "Magenta/40",
+						"value": "#c2b4c2"
+					},
+					{
+						"name": "Magenta/55",
+						"value": "#a0899e"
+					},
+					{
+						"name": "Magenta/70",
+						"value": "#856883"
+					},
+					{
+						"name": "Magenta/85",
+						"value": "#6b4869"
+					},
+					{
+						"name": "Magento/100",
+						"value": "#51284f"
+					}
+				]
+			},
+			{
+				"name": "Red",
+				"description": "Red/100 is called Rubine Red on Coople CI Guidelines",
+				"colors": [
+					{
+						"name": "Red/100",
+						"value": "#e0004d"
+					},
+					{
+						"name": "Red/40",
+						"value": "#f4a6c1"
+					},
+					{
+						"name": "Red/55",
+						"value": "#ee739d"
+					},
+					{
+						"name": "Red/70",
+						"value": "#e94c82"
+					},
+					{
+						"name": "Red/85",
+						"value": "#e42667"
+					}
+				]
+			}
+		],
+		"fonts": [
+			{
+				"name": "Lato",
+				"family": "Lato",
+				"variants": [
+					{
+						"fontStyle": "normal",
+						"fontWeight": 400
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": 400
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": 200
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": 200
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": 300
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": 300
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": "bold"
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": "bold"
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": 800
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": 800
+					}
+				],
+				"description": "Lato is Coople's Corporate font, it is used for headings and titles on screen."
+			},
+			{
+				"name": "Open Sans",
+				"family": "Open Sans",
+				"variants": [
+					{
+						"fontStyle": "normal",
+						"fontWeight": 400
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": 400
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": 300
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": 300
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": 600
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": 600
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": "bold"
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": "bold"
+					},
+					{
+						"fontStyle": "normal",
+						"fontWeight": 800
+					},
+					{
+						"fontStyle": "italic",
+						"fontWeight": 800
+					}
+				],
+				"description": "Coople Uses Open Sans for body text and tiny sizes."
+			}
+		],
+		"typeStyles": [
+			{
+				"fontSize": "14px",
+				"lineHeight": "19px",
+				"textAlign": "left",
+				"color": null,
+				"fontStyle": "normal",
+				"fontWeight": "400",
+				"fontFamily": "Open Sans",
+				"name": "Body",
+				"backgroundColor": null
+			},
+			{
+				"fontSize": "45px",
+				"lineHeight": "56px",
+				"textAlign": "left",
+				"color": null,
+				"fontStyle": "normal",
+				"fontWeight": "bold",
+				"fontFamily": "Lato",
+				"name": "H1 Heading",
+				"backgroundColor": null
+			},
+			{
+				"fontSize": "21px",
+				"lineHeight": "31.5px",
+				"textAlign": "left",
+				"color": null,
+				"fontStyle": "normal",
+				"fontWeight": "bold",
+				"fontFamily": "Lato",
+				"name": "H5 Heading",
+				"backgroundColor": null
+			},
+			{
+				"fontSize": "10px",
+				"lineHeight": "16px",
+				"textAlign": "left",
+				"color": null,
+				"fontStyle": "normal",
+				"fontWeight": "400",
+				"fontFamily": "Open Sans",
+				"name": "Tiny",
+				"backgroundColor": null
+			}
+		],
+		"termSections": [],
+		"measurementSections": [],
+		"shadowSections": [],
+		"readOnly": true
+	}
+}

@@ -218,7 +218,17 @@ button:focus {
     font-weight: bold;
     opacity: 0;
 }
-
+ .menu__item__category {
+  
+    width: 50%;
+    font-size: .85rem;
+    margin: 0 0 1.5rem;
+    font-weight: normal;
+    /* border-bottom: 1px dotted var(--color-menu-item); */
+    /* float: right; */
+    /* text-align: left; */
+    margin-left: 50%;
+}
 .Alfred .section__content {
     overflow: scroll;
 }
@@ -227,11 +237,11 @@ button:focus {
     pointer-events: auto;
 }
 
-.menu__item-link {
+.menu__item-link, .menu__item__category{
     color: var(--color-menu-item);
 }
 
-.menu__item-link:hover {
+.menu__item-link:hover , .menu__item__category:hover{
     color: var(--color-menu-item-hover);
 }
 
@@ -255,7 +265,7 @@ button:focus {
 }
 
 .section__title {
-    font-size: 4vw;
+    font-size:2.4vw;
     text-transform: uppercase;
     margin: 0;
     letter-spacing: -0.05vw;
@@ -274,6 +284,9 @@ button:focus {
     position: relative;
     padding: 0 2rem 0 0;
     font-weight: 300;
+}
+.section__content p{
+    line-height: 1.75;
 }
 
 .section__description-inner {
@@ -459,7 +472,16 @@ button:focus {
     header li {
         height: 40px;
     }
-
+.color-card {
+    width: 10vw;height: 10vh;
+}
+.color-list {
+    display: inline-flex;
+}
+.colorlist ul{
+    list-style: none;
+    display: inline-block;
+}
 @media screen and (min-width: 55em) and (min-height: 40em) {
     .sections {
         height: 100vh;
@@ -633,7 +655,7 @@ button:focus {
         pointer-events: auto;
     }
     .section__content {
-        padding: 7rem 4rem;
+            padding-right: 4.5rem;
 /*        grid-area: slide-content;
 */    }
     .section__expander {
