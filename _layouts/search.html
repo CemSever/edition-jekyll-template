@@ -1,0 +1,64 @@
+ {% include header.html %}
+<!-- facts expander with toggles; content for each is in its section -->
+<div class="facts">
+    <div class="facts__toggle">
+        <span class="facts__toggle-inner facts__toggle-inner--more">
+                            <svg class="icon icon--dot"><use xlink:href="#icon-dot"></use></svg>
+                            <span class="facts__toggle-text">Expand list</span>
+        </span>
+        <span class="facts__toggle-inner facts__toggle-inner--less">
+                            <svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>
+                            <span class="facts__toggle-text">See less </span>
+        </span>
+    </div>
+    <button class="button-contentclose">
+        <svg class="icon icon--close">
+            <use xlink:href="#icon-close"></use>
+        </svg>
+    </button>
+</div>
+<!-- index -->
+<!-- <div class="sections__index">
+                    <span class="sections__index-current">
+                        <span class="sections__index-inner">01</span>
+                    </span>
+                    <span class="sections__index-total">04</span>
+                </div> -->
+<!-- navigation down -->
+<section class="section section--current">
+    <div class="section__content">
+        <form action="{{ site.baseurl }}/search/" method="get">
+            <input type="text" name="q" id="search-input" placeholder="search" autofocus>
+            <input type="submit" value="Search" style="display: none;">
+        </form>
+        <p class="section__description"><span class="section__description-inner">{{ content }}</span></p>
+    </div>
+    <div class="section__img">
+        <div class="section__img-inner" style="background-image: url({{ site.baseurl }}/images/Search/01.svg)"></div>
+    </div>
+    <div class="section__more">
+        <div class="section__more-inner section__more-inner--bg1">
+            <span class="section__more-text">Start Reading Documentation</span>
+            <a href="#" class="section__more-link">
+                                <span class="section__more-linktext">Let's go Alfred</span>
+                                <svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
+                            </a>
+        </div>
+    </div>
+    <!-- {% include default.html %} -->
+</section>
+<!--/ section -->
+</div>
+<!--/ sections -->
+<script>
+document.getElementById("open-nav").addEventListener("click", function() {
+    document.body.classList.toggle("nav-open");
+});
+</script>
+<script src="{{ site.baseurl }}/scripts/imagesloaded.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/charming.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/anime.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/main.js"></script>
+</body>
+
+</html>

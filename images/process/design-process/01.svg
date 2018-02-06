@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="656px" height="656px" viewBox="0 0 656 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search">
+            <g id="13-work-process" transform="translate(151.000000, 129.000000)">
+                <circle id="Oval" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" cx="176" cy="176.369" r="48"></circle>
+                <rect id="Rectangle-path" fill="#64CDF2" fill-rule="nonzero" transform="translate(182.808871, 24.756835) rotate(-135.000000) translate(-182.808871, -24.756835) " x="170.834486" y="12.7839498" width="23.9487703" height="23.9457704"></rect>
+                <rect id="Rectangle-path" stroke="#3A3A3A" stroke-width="3.99996164" stroke-linecap="round" stroke-linejoin="round" transform="translate(176.005338, 17.932362) rotate(-135.000000) translate(-176.005338, -17.932362) " x="164.030453" y="5.95747634" width="23.9497703" height="23.9497703"></rect>
+                <path d="M224.001,288.869 L224.001,273.035" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M286.696,224.369 L286.696,208.535" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M336.001,255.035 L336.001,205.701" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M128,288.869 L128,273.035" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M176,240.37 L176,224.369" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M176,128.535 L176,112.535" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M176,64.407 L176,32.369" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M224.001,176.369 L272,176.369" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M80,176.369 L128,176.369" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <rect id="Rectangle-path" fill="#D8D8D8" fill-rule="nonzero" x="0" y="240.501" width="16" height="15.999"></rect>
+                <rect id="Rectangle-path" fill="#D8D8D8" fill-rule="nonzero" x="0" y="272.5" width="16" height="16.001"></rect>
+                <rect id="Rectangle-path" fill="#D8D8D8" fill-rule="nonzero" x="0" y="304.5" width="16" height="16"></rect>
+                <path d="M32,240.501 L80,240.501" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M32,256.5 L64,256.5" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M32,272.5 L80,272.5" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M32,288.501 L64,288.501" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M32,304.5 L80,304.5" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M32,320.5 L64,320.5" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M320,272.369 C320,263.534 327.162,256.368 336.001,256.368 C344.834,256.368 352,263.534 352,272.369 C352,281.204 344.834,288.37 336.001,288.37 C327.162,288.37 320,281.204 320,272.369 Z" id="Shape" fill="#D8D8D8" fill-rule="nonzero"></path>
+                <path d="M270.697,240.37 C270.697,231.532 277.858,224.369 286.696,224.369 C295.531,224.369 302.697,231.532 302.697,240.37 C302.697,249.203 295.531,256.368 286.696,256.368 C277.858,256.368 270.697,249.203 270.697,240.37 Z" id="Shape" fill="#D8D8D8" fill-rule="nonzero"></path>
+                <rect id="Rectangle-path" fill="#D8D8D8" fill-rule="nonzero" x="119.999" y="64.368" width="112" height="46.667"></rect>
+                <path d="M134,80.667 L216.001,80.667" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M134,96.498 L216.001,96.498" id="Shape" stroke="#3A3A3A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <rect id="Rectangle-path" fill="#D8D8D8" fill-rule="nonzero" transform="translate(223.994920, 320.371873) rotate(-135.000000) translate(-223.994920, -320.371873) " x="201.721634" y="298.098587" width="44.5465728" height="44.5465728"></rect>
+                <rect id="Rectangle-path" fill="#D8D8D8" fill-rule="nonzero" transform="translate(127.998620, 320.372280) rotate(-135.000000) translate(-127.998620, -320.372280) " x="105.724834" y="298.098494" width="44.5475728" height="44.5475728"></rect>
+                <rect id="Rectangle-path" fill="#3AB1CC" fill-rule="nonzero" x="119.492" y="239.86" width="112" height="32.001"></rect>
+                <rect id="Rectangle-path" fill="#ED4F3E" fill-rule="nonzero" x="0.707" y="145.076" width="79.999" height="63.998"></rect>
+                <rect id="Rectangle-path" fill="#ED4F3E" fill-rule="nonzero" x="271.426" y="145.076" width="80.001" height="63.998"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
