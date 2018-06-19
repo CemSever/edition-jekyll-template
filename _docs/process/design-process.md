@@ -3,7 +3,7 @@ title: Design & Process
 category: Process
 order: 4
 ---
-![](/images/process/process.jpg)
+![](/images/process/process.jpg){:class="img-fluid"}
 
 
 # Configuration

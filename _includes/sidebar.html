@@ -1,0 +1,20 @@
+
+<ul class="nav nav-pills flex-column">
+
+{% assign grouped = site.docs | group_by: 'category' %} {% for group in grouped %} {% assign items = group.items | sort: 'order' %}
+  
+ <li class="nav-item">
+    <a class="nav-link disabled" href="#">{{ group.name }}</a>
+  </li>
+
+
+{% for item in items %}
+  <li class="nav-item">
+    <a class="nav-link {% if item.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+  </li>
+
+ {% endfor %}
+
+ {% endfor %}
+
+ </ul>

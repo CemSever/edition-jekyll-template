@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="656px" height="656px" viewBox="0 0 656 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>story</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="story">
+            <g id="14-knowledge" transform="translate(192.000000, 176.000000)">
+                <path d="M32,0 C23.164,0 16,7.164 16,16 L16,256 C16,247.164 23.164,240 32,240 L224,240 L224,16 L224,0 L32,0 Z" id="Shape" fill="#E0004D" fill-rule="nonzero"></path>
+                <path d="M32,240 C23.164,240 16,247.164 16,256 C16,264.836 23.164,272 32,272 L96.313,272 L128,304.691 L128,272 L224,272 L224,256 L224,240 L32,240 Z" id="Shape" fill="#63B7EE" fill-rule="nonzero"></path>
+                <path d="M37.174,240 C31.459,240 26.826,244.633 26.826,250.347 C26.826,256.061 31.459,260.695 37.174,260.695 L216,260.695 L216,250.347 L216,240 L37.174,240 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M176,250.348 L272,250.348" id="Shape" stroke="#30241C" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M176,232.5 L272,232.5" id="Shape" stroke="#30241C" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M176,215.75 L272,215.75" id="Shape" stroke="#30241C" stroke-width="4" stroke-linejoin="round"></path>
+                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="48" y="47.5" width="127.5" height="64.25"></rect>
+                <path d="M64,64 L127.75,64" id="Shape" stroke="#30241C" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M64,80 L127.75,80" id="Shape" stroke="#30241C" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M64,96 L127.75,96" id="Shape" stroke="#30241C" stroke-width="4" stroke-linejoin="round"></path>
+                <circle id="Oval" stroke="#30241C" stroke-width="4" stroke-linejoin="round" cx="16" cy="176" r="16"></circle>
+                <circle id="Oval" stroke="#30241C" stroke-width="4" stroke-linejoin="round" cx="232" cy="39.5" r="24"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

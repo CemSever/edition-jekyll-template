@@ -1,52 +1,19 @@
  {% include header.html %}
 <!-- facts expander with toggles; content for each is in its section -->
-<div class="facts">
-    <div class="facts__toggle">
-        <span class="facts__toggle-inner facts__toggle-inner--more">
-                            <svg class="icon icon--dot"><use xlink:href="#icon-dot"></use></svg>
-                            <span class="facts__toggle-text">Expand list</span>
-        </span>
-        <span class="facts__toggle-inner facts__toggle-inner--less">
-                            <svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>
-                            <span class="facts__toggle-text">See less</span>
-        </span>
+<section class="p-5 row">
+    <div class="sidebar col-2">
+        {% include sidebar.html %}
     </div>
-    <button class="button-contentclose">
-        <svg class="icon icon--close">
-            <use xlink:href="#icon-close"></use>
-        </svg>
-    </button>
-</div>
-<section class="section section--current">
-    <div class="section__content">
-        <h2 class="section__title">{{ page.title }}</h2>
-        <p class="section__description"><span class="section__description-inner">{{ content }}</span></p>
+    <div class="col-10">
+    	    <h1 class="pb-3">{{ page.title }}</h1>
+
+        {{ content }}
     </div>
     <div class="section__img">
-        <div class="section__img-inner" style="background-image: url({{ site.baseurl }}/images{{ page.url }}/01.svg)"></div>
+        <!-- <div class="section__img-inner" style="background-image: url({{ site.baseurl }}/images{{ page.url }}/01.svg)"></div> -->
     </div>
-    <div class="section__more">
-        <div class="section__more-inner section__more-inner--bg1">
-            <span class="section__more-text">Start Reading Documentation</span>
-            <a href="#" class="section__more-link">
-                                <span class="section__more-linktext">Let's go Alfred</span>
-                                <svg class="icon icon--arrowlong"><use xlink:href="#icon-arrowlong"></use></svg>
-                            </a>
-        </div>
     </div> {%if page.url == "/process/design-process/" %} {% include design-process.html %} {% else %} {% include default.html %} {% endif %}
 </section>
 <!--/ section -->
-</div>
 <!--/ sections -->
-<script>
-// document.getElementById("open-nav").addEventListener("click", function() {
-//     document.body.classList.toggle("nav-open");
-// });
-</script>
-<script src="{{ site.baseurl }}/scripts/imagesloaded.pkgd.min.js"></script>
-<script src="{{ site.baseurl }}/scripts/charming.min.js"></script>
-<script src="{{ site.baseurl }}/scripts/anime.min.js"></script>
-<script src="{{ site.baseurl }}/scripts/main.js"></script>
-</body>
-
-</html>
+{% include footer.html %}

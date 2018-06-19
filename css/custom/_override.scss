@@ -1,0 +1,230 @@
+/* Background */
+
+$color-background-100: #f8f9fa;
+$color-background-default: #ffffff;
+
+
+/* Blue */
+
+$color-blue-regular: #63b7ee;
+$color-blue-dark: #7ac2f0;
+$color-blue-70: #91ccf3;
+$color-blue-55: #a9d8f6;
+$color-blue-40: #c9e6f9;
+
+
+/* Green */
+
+$color-green-100: #81bf34;
+$color-green-85: #94c852;
+$color-green-70: #a6d270;
+$color-green-55: #badc90;
+$color-green-40: #cde5ae;
+
+
+/* Greyscale */
+
+$color-black: #282727;
+$color-grey-85: #484747;
+$color-grey-70: #686767;
+$color-grey-55: #979797;
+$color-grey-40: #b4b4b4;
+$color-grey-35: #dee2e4;
+
+
+/* Magenta */
+
+$color-magento-100: #51284f;
+$color-magenta-85: #6b4869;
+$color-magenta-70: #856883;
+$color-magenta-55: #a0899e;
+$color-magenta-40: #c2b4c2;
+
+
+/* Orange */
+
+$color-orange-100: #ec622e;
+$color-orange-85: #ef794d;
+$color-orange-70: #f1916c;
+$color-orange-55: #f5a98c;
+$color-orange-40: #f7c0ab;
+
+
+/* Red */
+
+$color-red-100: #e0004d;
+$color-red-85: #e42667;
+$color-red-70: #e94c82;
+$color-red-55: #ee739d;
+$color-red-40: #f4a6c1;
+
+
+
+
+
+
+/*
+    Font Styles:
+*/
+
+
+/* Body font style */
+
+$font-body-font-size: 14px;
+$font-body-line-height: 20px;
+$font-body-text-align: start;
+$font-body-color: #000000;
+$font-body-font-style: normal;
+$font-body-font-weight: 400;
+$font-body-font-family: Lato;
+
+@mixin font-body () {
+    font-size: $font-body-font-size;
+    line-height: $font-body-line-height;
+    text-align: $font-body-text-align;
+    color: $font-body-color;
+    font-style: $font-body-font-style;
+    font-weight: $font-body-font-weight;
+    font-family: $font-body-font-family;
+}
+
+
+/* Large font style */
+
+$font-large-font-size: 16px;
+$font-large-line-height: 24px;
+$font-large-text-align: start;
+$font-large-color: #000000;
+$font-large-font-style: normal;
+$font-large-font-weight: 400;
+$font-large-font-family: Lato;
+
+@mixin font-large () {
+    font-size: $font-large-font-size;
+    line-height: $font-large-line-height;
+    text-align: $font-large-text-align;
+    color: $font-large-color;
+    font-style: $font-large-font-style;
+    font-weight: $font-large-font-weight;
+    font-family: $font-large-font-family;
+}
+
+
+/* Micro font style */
+
+$font-micro-font-size: 10px;
+$font-micro-line-height: 16px;
+$font-micro-text-align: start;
+$font-micro-color: #000000;
+$font-micro-text-transform: uppercase;
+$font-micro-font-style: normal;
+$font-micro-font-weight: 400;
+$font-micro-font-family: Lato;
+
+@mixin font-micro () {
+    font-size: $font-micro-font-size;
+    line-height: $font-micro-line-height;
+    text-align: $font-micro-text-align;
+    color: $font-micro-color;
+    text-transform: $font-micro-text-transform;
+    font-style: $font-micro-font-style;
+    font-weight: $font-micro-font-weight;
+    font-family: $font-micro-font-family;
+}
+
+
+/* Small font style */
+
+$font-small-font-size: 12px;
+$font-small-line-height: 16px;
+$font-small-text-align: start;
+$font-small-color: #000000;
+$font-small-font-style: normal;
+$font-small-font-weight: 400;
+$font-small-font-family: Lato;
+
+@mixin font-small () {
+    font-size: $font-small-font-size;
+    line-height: $font-small-line-height;
+    text-align: $font-small-text-align;
+    color: $font-small-color;
+    font-style: $font-small-font-style;
+    font-weight: $font-small-font-weight;
+    font-family: $font-small-font-family;
+}
+
+
+/* Title 1 font style */
+
+$font-title-1-font-size: 45px;
+$font-title-1-line-height: 56px;
+$font-title-1-text-align: left;
+$font-title-1-font-style: normal;
+$font-title-1-font-weight: bold;
+$font-title-1-font-family: Lato;
+
+@mixin font-title-1 () {
+    font-size: $font-title-1-font-size;
+    line-height: $font-title-1-line-height;
+    text-align: $font-title-1-text-align;
+    font-style: $font-title-1-font-style;
+    font-weight: $font-title-1-font-weight;
+    font-family: $font-title-1-font-family;
+}
+
+
+/* Title 2 font style */
+
+$font-title-2-font-size: 21px;
+$font-title-2-line-height: 31.5px;
+$font-title-2-text-align: start;
+$font-title-2-color: #000000;
+$font-title-2-font-style: normal;
+$font-title-2-font-weight: bold;
+$font-title-2-font-family: Lato;
+
+@mixin font-title-2 () {
+    font-size: $font-title-2-font-size;
+    line-height: $font-title-2-line-height;
+    text-align: $font-title-2-text-align;
+    color: $font-title-2-color;
+    font-style: $font-title-2-font-style;
+    font-weight: $font-title-2-font-weight;
+    font-family: $font-title-2-font-family;
+}
+
+
+
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: $color-grey-35 !default;
+$gray-400: $color-grey-40 !default;
+$gray-500: $color-grey-55 !default;
+$gray-600: #6c757d !default;
+$gray-700: $color-grey-70 !default;
+$gray-800: $color-grey-85 !default;
+$gray-900: #212529 !default;
+$black : $color-black !default;
+
+$blue : $color-blue-regular !default;
+$indigo : #6610f2 !default;
+$purple : $color-magento-100 !default;
+$pink : #e83e8c !default;
+$red : $color-red-100 !default;
+$orange : $color-orange-100 !default;
+$yellow : #ffc107 !default;
+$green : $color-green-100 !default;
+$teal : #20c997 !default;
+$cyan : #17a2b8 !default;
+
+$primary: $red;
+$secondary : $purple;
+$success : $green !default;
+$info : $cyan !default;
+$warning : $yellow !default;
+$danger : $red !default;
+$light : $gray-100 !default;
+$dark : $gray-800 !default;
+
+
+$font-family-sans-serif: $font-body-font-family;

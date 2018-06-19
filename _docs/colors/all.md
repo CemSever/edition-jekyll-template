@@ -1,7 +1,7 @@
 ---
 title: All Colors
-category: colors
-order: 1
+category: Colors
+order: 7
 layout: colors
 ---
 

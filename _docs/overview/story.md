@@ -12,4 +12,4 @@ Coople’s platform design adds immediate and significant value to our customers
 
 The Coople design system delivers maximum value via the use of smart, reusable interface patterns designed to solve business problems. In these guidelines, you’ll find how we use modular design, user-centric research, and an agile design method to drive the this design system.
 
-![](//placehold.it/800x600)
+![](/images/productmockups/shift-confirm.jpeg){:class="img-fluid"}
